@@ -34,7 +34,7 @@ export default function ContactForm() {
         try {
             setLoading(true);
             const response = await axios.post(
-                "http://bhavanatss-server.vercel.app/contact",
+                "https://bhavanatss-server.vercel.app/contact",
                 form
             );
 
